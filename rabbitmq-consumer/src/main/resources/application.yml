@@ -1,0 +1,11 @@
+server:
+  port: 8200
+spring:
+  application:
+    name: rabbitmq-consumer
+  rabbitmq:
+    host: 192.168.18.131
+    port: 5672
+    username: admin
+    password: admin
+    virtualHost: /
